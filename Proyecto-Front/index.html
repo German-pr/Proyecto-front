@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styless.css">
+        <title>Roberto Grau</title>
+</head>
+<body>
+        <header class="titulo">
+                <img src="./Proyecto carrito de compras/Imagenes/images.png" alt="logodecaballo" width="250">
+                <h1><em>Homenaje a Roberto Grau</em></h1>
+                <h4>El Padre del Ajedrez Argentino</h4>    
+        </header>
+            <nav id="nav-header">
+                <ul>
+                    <li><a class="biografia" href="#biografiaa">Biografía</a></li>
+                    <li><a class="biografia" href="#galeria">Galería</a></li>
+                    <li><a class="biografia" href="#tomos">Tomos a la venta</a></li>
+                    <li><a class="biografia" href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>  
+                     
+        <div class="container">
+            <!---Biografia-->
+            <main>
+                <div class="container">
+                    <div id="biografiaa">
+                        <h1>Biografia de Roberto Grau</h1>
+                        <div class="biografia-content">
+                            <img src="Proyecto carrito de compras/Imagenes/Roberto-Grau.jpg" width="200" alt="robertofrenteatablerodeajedrez">
+                            <h3 class="pbio">Nació el 18/03/1900. Premio Konex 1980. Figura clave del ajedrez nacional e internacional. A los 16 años ganó la Primera categoría en el Círculo Argentino de Ajedrez. Fundó la Federación Argentina de Ajedrez y el Círculo de Ajedrez de Buenos Aires. En 1921 fue Campeón Sudamericano en el torneo de Uruguay. Representante nacional en los Juegos Olímpicos de París 1924. Obtuvo el primer título argentino en 1926 y en otras 5 oportunidades. Ejerció la capitanía de varios equipos argentinos. Columnista de Frente al Tablero en el diario La Nación (PK). Organizó el Torneo de las Naciones de Buenos Aires en 1939. Publicó Tratado general de ajedrez, la obra de táctica y estrategia más completa con la que se formaron generaciones de jugadores en el país y el extranjero. Principal exponente de la Edad de Oro del Ajedrez Nacional a mediados de los ‘40 cuando Argentina se posicionó como una de las potencias mundiales del juego ciencia. Falleció el 12/04/1944.</h3>
+                        </div>      
+                            <a href="https://web.archive.org/web/20131013201735/http://www.ajedrezargentina.org/biografias/grau.html" target="_blank">Ver más</a>
+                    </div>       
+                </div>    
+                <section id="galeria" class="galeria">
+                    <div><h1 class="containerh2">Galeria de los Libros</h1></div>
+                        <img src="Proyecto carrito de compras/Imagenes/4tomosjuntos.webp" width="900" class="tomosjuntos">
+                        
+                </section>
+                <!---Sección de tomos a la Venta-->
+                <section id="tomos" class="tomos">
+                        <div><h1 class="titulotomos">Tomos a la venta</h1></div>
+                    <div class="tomo">
+                            <img src="Proyecto carrito de compras/Imagenes/tapadelibro.jpg" width="100" alt="tapadelibrorudimentos">
+                        <div class="info">
+                            <h3>Rudimentos</h3>
+                            <p>Precio: $10000</p>
+                            <p class="descripcion">Este tomo es el punto de partida para los principiantes. Grau explica las reglas fundamentales del ajedrez, los movimientos de las piezas y los conceptos básicos que todo jugador debe conocer. Es ideal para quienes desean construir una base sólida en el juego.</p>
+                            <button class="buttoncomprar">Comprar</button>
+                        </div>
+                    </div>    
+                    <div class="tomo">
+                            <img src="Proyecto carrito de compras/Imagenes/tactica2.webp" width="100">
+                        <div class="info">    
+                            <h3>Táctica</h3>
+                            <p>Precio: $10000</p>
+                            <p class="descripcion">En el segundo tomo, Grau introduce los conceptos tácticos clave que guían las decisiones en el ajedrez. Se enfoca en la importancia del control del centro, el desarrollo de las piezas y la coordinación, brindando una comprensión más profunda de cómo planificar y conducir una partida.</p>
+                            <button class="buttoncomprar">Comprar</button>
+                        </div>   
+                    </div>    
+                    <div class="tomo">
+                            <img src="Proyecto carrito de compras/Imagenes/conformaciondepeones2.webp" width="100">
+                        <div class="info">
+                            <h3>Conformación de Peones</h3>
+                             <p>Precio: $10000</p>
+                            <p class="descripcion">Este tomo se centra en la estructura de peones, un aspecto esencial para la estrategia a largo plazo. Grau analiza diferentes configuraciones de peones, explicando cómo afectan el juego y cómo utilizar esta conformación para obtener ventajas estratégicas.</p>
+                            <button class="buttoncomprar">Comprar</button> 
+                        </div>    
+                    </div>
+                    <div class="tomo">
+                            <img src="Proyecto carrito de compras/Imagenes/estrategiasuperior.webp" width="100">
+                        <div class="info">
+                            <h3>Estratégia Superior</h3>
+                            <p>Precio: $10000</p>
+                            <p class="descripcion">El último tomo abarca la estrategia avanzada. Grau examina partidas y conceptos de alto nivel, enseñando cómo aplicar los conocimientos adquiridos en situaciones complejas. Es una guía para jugadores avanzados que buscan perfeccionar sus habilidades y llevar su juego a un nivel superior.</p>
+                            <button class="buttoncomprar">Comprar</button>
+                        </div>
+                    </div> 
+                </section>
+            </main>    
+                    <!---Formulario de compra --> 
+                <section id="contacto" class="tomo-selection">
+                        <h1><em>    Formulario de Compra</em></h1>
+                        <form action="https://formspree.io/f/xwpkpeqb" method="post">
+                            <div>
+                                <label for="nombre">Nombre Completo</label>
+                                <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre" required>
+                            </div>
+                            <div>
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" placeholder="Escribe tu email" required>
+                            </div>
+                            <div>
+                                <label for="tomos">Seleccionar Tomo</label>
+                                <div class="tomo-option">
+                                        <input type="checkbox" id="tomo1" name="tomos" value="10000">
+                                        <label for="tomo1">Tomo 1: Rudimentos - $10000</label>
+                                </div> 
+                                <div class="tomo-option">
+                                    <input type="checkbox" id="tomo2" name="tomos" value="10000">
+                                    <label for="tomo2">Tomo 2: Táctica - $10000</label>
+                                </div> 
+                                <div class="tomo-option">
+                                    <input type="checkbox" id="tomo3" name="tomos" value="10000">
+                                    <label for="tomo3">Tomo 1: Conformación de Peones - $10000</label>
+                                </div>
+                                <div class="tomo-option">
+                                    <input type="checkbox" id="tomo4" name="tomos" value="10000">
+                                    <label for="tomo4">Tomo 1: Estratégia Superior - $10000</label>
+                                </div>                              
+                                <div>
+                                    <label for="total">Total:</label>
+                                    <input type="text" id="total" name="total" placeholder="$0">
+                                </div>
+                                <button type="submit">Enviar Compra</button>
+                            </div>
+                        </form>
+                </section> 
+                <!-- Carrito de compras -->
+                <section class="carrito">
+                    <h2>Carrito de Compras</h2>
+                    <ul>
+                        <li class="carrito-item">
+                            <span class="item-nombre">Tomo 1: Rudimentos</span>
+                            <span class="item-precio">$10,000</span>
+                            <button class="boton-eliminar">Eliminar</button>
+                        </li>
+                        <li class="carrito-item">
+                            <span class="item-nombre">Tomo 2: Táctica</span>
+                            <span class="item-precio">$10,000</span>
+                            <button class="boton-eliminar">Eliminar</button>
+                        </li>
+                        <li class="carrito-item">
+                            <span class="item-nombre">Tomo 3: Conformación de Peones</span>
+                            <span class="item-precio">$10,000</span>
+                            <button class="boton-eliminar">Eliminar</button>
+                        </li>
+                        <li class="carrito-item">
+                            <span class="item-nombre">Tomo 4: Estrategia Superior</span>
+                            <span class="item-precio">$10,000</span>
+                            <button class="boton-eliminar">Eliminar</button>
+                        </li>
+                    </ul>
+                    <div class="carrito-total">
+                        <span>Total:</span>
+                        <span class="total-valor">$40,000</span>
+                    </div>
+                </section>
+        </div>
+</body>
+<footer>
+    <p>© 2024 Homenaje a Roberto Grau - Todos los derechos reservados</p>
+</footer>
+</html>
